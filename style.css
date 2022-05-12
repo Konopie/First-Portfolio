@@ -2,3 +2,21 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --primary-color: darkblue;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
+
+section {
+    padding: 60px;
+  }
+  
+/* general css end */
+/* header css start */
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }

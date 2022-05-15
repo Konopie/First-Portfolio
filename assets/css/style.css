@@ -104,6 +104,12 @@ header nav ul li a:hover {
 
   /* footer css end */
 
+  /* hero css start */
+
+  .hero
+
+  /* hero css end */
+
   /* about me css start */
   .about {
     font-size: 1.55vw
@@ -126,24 +132,113 @@ header nav ul li a:hover {
        text-shadow: 1px 1px black;
    }
 
-.run-buddy-container {
-  position: relative;
-  background-color: white;
-}
-
 .run-buddy:hover {
   opacity: .5;
 }
 
-.placeholder-container {
-  padding: 10px;
+.container {
   display: flex;
   flex-wrap: wrap;
   flex: 1 1;
   background-color: white;
   justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
-.placeholder-container img:hover {
+.container:hover {
   opacity: .5;
+}
+
+.christmas {
+  background-image: url(../images/ChristmasPicture.jpg);
+  display: flex;
+  flex: 1 1;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  width: 31vw;
+  height: 10vw;
+  color: #fce138;
+       font-weight: bolder;
+       font-size: 2.22vw;
+       text-shadow: 1px 1px black;
+}
+
+.halloween {
+  background-image: url(../images/halloween.jpg);
+  display: flex;
+  flex: 1 1;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  width: 31vw;
+  height: 10vw;
+  color: #fce138;
+       font-weight: bolder;
+       font-size: 2.22vw;
+       text-shadow: 1px 1px black;
+}
+
+.easter {
+    background-image: url(../images/easter.jpg);
+    display: flex;
+    flex: 1 1;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    width: 31vw;
+    height: 10vw;
+    color: #fce138;
+       font-weight: bolder;
+       font-size: 2.22vw;
+       text-shadow: 1px 1px black;
+}
+
+.july4th {
+  background-image: url(../images/july4th.jpg);
+  display: flex;
+  flex: 1 1;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  width: 31vw;
+  height: 10vw;
+  color: #fce138;
+       font-weight: bolder;
+       font-size: 2.22vw;
+       text-shadow: 1px 1px black;
+}
+
+
+
+/* my work css end */
+
+/* Contact css start */
+
+.contact-list {
+  list-style: none;
+  padding: 0 20px 0 20px;
+  font-size: 2.22vw;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  border-bottom: 2px solid #024e76;
+  padding: 10px 11px;
+}
+
+.contact-list a:hover {
+  color: var(--tertiary-color);
+  border-bottom: 2px solid var(--tertiary-color);
+  background-color: var(--secondary-color);
+  border-radius: 15px;
 }

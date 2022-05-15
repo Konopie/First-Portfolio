@@ -26,10 +26,12 @@ section {
 }
 
 .section-body {
-    padding-left: 20px;
+    padding: 0 20px 0 20px;
     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
 }
-  
+
 /* general css end */
 /* header css start */
 header {
@@ -41,6 +43,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    width: 100%;
     z-index: 9999;
 }
 
@@ -102,10 +105,45 @@ header nav ul li a:hover {
   /* footer css end */
 
   /* about me css start */
+  .about {
+    font-size: 1.55vw
+  }
    /* about me css end */
 
    /* my work css start */
 
    .run-buddy {
-       background-image: url(/run-buddy-screenshot.img);
+       background-image: url(../images/run-buddy-screenshot.png);
+       display: block;
+       background-size: cover;
+       background-position: center;
+       width: 62vw;
+       height: 20vw;
+       text-decoration: none;
+       color: #fce138;
+       font-weight: bolder;
+       font-size: 2.22vw;
+       text-shadow: 1px 1px black;
    }
+
+.run-buddy-container {
+  position: relative;
+  background-color: white;
+}
+
+.run-buddy:hover {
+  opacity: .5;
+}
+
+.placeholder-container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1;
+  background-color: white;
+  justify-content: center;
+}
+
+.placeholder-container img:hover {
+  opacity: .5;
+}

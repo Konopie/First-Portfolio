@@ -9,9 +9,14 @@
     --tertiary-color: #39a6b2;
   }
 
+body {
+  overflow-x: hidden;
+}
+
 section {
     padding: 60px;
     display: flex;
+    scroll-margin-top: 4.20rem;
   }
 
 .section-head {
@@ -31,7 +36,6 @@ section {
     display: flex;
     flex-wrap: wrap;
 }
-
 /* general css end */
 /* header css start */
 header {
@@ -44,6 +48,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
+    height: 4.25rem;
     z-index: 9999;
 }
 
@@ -69,7 +74,7 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 20px;
+    padding: 20px 50px 20px 20px;
   }
 
 header nav ul li a {
@@ -94,6 +99,7 @@ header nav ul li a:hover {
   footer {
     background: var(--secondary-color);
     width: 100%;
+    margin: 0 -30px 0 0;
   }
 
   footer h2 {
@@ -106,7 +112,17 @@ header nav ul li a:hover {
 
   /* hero css start */
 
-  .hero
+  .hero {
+    background-image: url(../images/avatar.jpg); /* will change later just dont have photo of myself */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  
+  .hero h2 {
+    color: white;
+    text-shadow: 2px 1px black;
+  }
 
   /* hero css end */
 
@@ -242,3 +258,6 @@ header nav ul li a:hover {
   background-color: var(--secondary-color);
   border-radius: 15px;
 }
+
+/* contact css end */
+

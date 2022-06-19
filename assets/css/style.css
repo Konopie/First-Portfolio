@@ -167,8 +167,8 @@ header nav ul li a:hover {
   opacity: .5;
 }
 
-.christmas {
-  background-image: url(../images/ChristmasPicture.jpg);
+.cat-generator {
+  background-image: url(../images/cat-generator.png);
   display: flex;
   flex: 1 1;
   background-size: cover;

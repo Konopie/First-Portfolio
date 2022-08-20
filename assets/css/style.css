@@ -168,7 +168,7 @@ header nav ul li a:hover {
 }
 
 .cat-generator {
-  background-image: url(../images/cat-generator.png);
+  background-image: url(../images/cat-genie.png);
   display: flex;
   flex: 1 1;
   background-size: cover;
@@ -182,8 +182,8 @@ header nav ul li a:hover {
        text-shadow: 1px 1px black;
 }
 
-.halloween {
-  background-image: url(../images/halloween.jpg);
+.hungry-guys {
+  background-image: url(../images/hungry-guys.png);
   display: flex;
   flex: 1 1;
   background-size: cover;
